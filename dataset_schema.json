@@ -1,0 +1,40 @@
+{
+  "splits": ["train", "validation"],
+  "total_rows": 11451314,
+  "size_gb": 55.6,
+  "columns": {
+    "source_lang": "string - e.g., eng_Latn",
+    "target_lang": "string - e.g., asm_Beng",
+    "meta": "dict - includes model_name, temperature, etc",
+    "query": "string - translated search query",
+    "Answer": "string - translated answer",
+    "query_id": "int - unique query identifier",
+    "query_type": "string - category of query",
+    "passages.is_selected": "list - binary selection indicators",
+    "passages.English_passages": "list - original English passages",
+    "passages.Translated_passages": "list - translated passages",
+    "Eng_Query": "string - original English query",
+    "Eng_Answer": "string - original English answer"
+  },
+  "languages": [
+    "Assamese (asm_Beng)",
+    "Bengali (bn)",
+    "Gujarati (gu)",
+    "Hindi (hi)",
+    "Kannada (kn)",
+    "Malayalam (ml)",
+    "Marathi (mr)",
+    "Nepali (ne)",
+    "Odia (or)",
+    "Punjabi (pa)",
+    "Sanskrit (sa)",
+    "Tamil (ta)",
+    "Telugu (te)",
+    "Urdu (ur)",
+    "English (eng_Latn)"
+  ],
+  "split_sizes": {
+    "train": 10100000,
+    "validation": 1370000
+  }
+}
